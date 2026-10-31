@@ -150,11 +150,19 @@ h3 {
   margin-right: 100px;
 }
 
-#about-me img {
+#me {
   width: 500px;
   height: 500px;
   margin: 20px;
   border: 4px solid var(--img-border-color);
+}
+
+#smiski {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  position: relative;
+  left: -400px;
 }
 
 #subtitle {
