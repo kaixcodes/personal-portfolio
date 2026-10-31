@@ -36,7 +36,7 @@ header {
 }
 
 header p {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 nav {
@@ -52,14 +52,16 @@ footer {
   background-color: var(--footer-background-color);
   display: flex;
   justify-content: center;
+  align-items: center;
   color: var(--nav-text-color);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   border-radius: 0 0 50px 50px;
 }
 
 footer p {
-  margin: 6px;
+  margin: 8px;
+  padding: 0;
 }
 
 #top {
@@ -72,19 +74,19 @@ footer p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   margin-top: 30px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: underline;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #external-links {
@@ -96,8 +98,8 @@ h3 {
 }
 
 #external-links a img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
 }
 
@@ -107,16 +109,16 @@ h3 {
   align-items: center;
   font-family: monospace;
   color: var(--nav-text-color);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   border: 4px dashed var(--nav-text-color-selected);
   gap: 30px;
-  padding: 20px;
+  padding: 15px;
 }
 
 #navigation span {
   margin-bottom: 4px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #navigation ul {
@@ -145,24 +147,23 @@ h3 {
 
 #about-me p,
 #contact p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
-  margin-right: 100px;
+  margin-right: 70px;
 }
 
 #me {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   margin: 20px;
   border: 4px solid var(--img-border-color);
 }
 
 #smiski {
-  width: 300px;
+  width: 200px;
   height: auto;
-  margin: 20px;
   position: relative;
-  left: -400px;
+  left: -280px;
 }
 
 #subtitle {
